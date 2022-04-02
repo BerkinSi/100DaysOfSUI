@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		943BE9B427F8565200D9570E /* FlagImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 943BE9B327F8565200D9570E /* FlagImage.swift */; };
+		943BE9B627F856EC00D9570E /* ViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 943BE9B527F856EC00D9570E /* ViewModifier.swift */; };
 		94F6751F27F464B2006FC214 /* GuessTheFlagApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94F6751E27F464B2006FC214 /* GuessTheFlagApp.swift */; };
 		94F6752127F464B2006FC214 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94F6752027F464B2006FC214 /* ContentView.swift */; };
 		94F6752327F464B4006FC214 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94F6752227F464B4006FC214 /* Assets.xcassets */; };
@@ -14,6 +16,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		943BE9B327F8565200D9570E /* FlagImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlagImage.swift; sourceTree = "<group>"; };
+		943BE9B527F856EC00D9570E /* ViewModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModifier.swift; sourceTree = "<group>"; };
 		94F6751B27F464B2006FC214 /* GuessTheFlag.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GuessTheFlag.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		94F6751E27F464B2006FC214 /* GuessTheFlagApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuessTheFlagApp.swift; sourceTree = "<group>"; };
 		94F6752027F464B2006FC214 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -53,8 +57,10 @@
 			children = (
 				94F6751E27F464B2006FC214 /* GuessTheFlagApp.swift */,
 				94F6752027F464B2006FC214 /* ContentView.swift */,
+				943BE9B327F8565200D9570E /* FlagImage.swift */,
 				94F6752227F464B4006FC214 /* Assets.xcassets */,
 				94F6752427F464B4006FC214 /* Preview Content */,
+				943BE9B527F856EC00D9570E /* ViewModifier.swift */,
 			);
 			path = GuessTheFlag;
 			sourceTree = "<group>";
@@ -138,7 +144,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				94F6752127F464B2006FC214 /* ContentView.swift in Sources */,
+				943BE9B427F8565200D9570E /* FlagImage.swift in Sources */,
 				94F6751F27F464B2006FC214 /* GuessTheFlagApp.swift in Sources */,
+				943BE9B627F856EC00D9570E /* ViewModifier.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
